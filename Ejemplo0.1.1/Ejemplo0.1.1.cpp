@@ -11,14 +11,14 @@ int main()
     int select=0;
 
     cout << "\t---------------------" << endl;
-    cout << "\tEJEMPLO v1.0 | MOANSO" << endl;
+    cout << "\tEJEMPLO v1.0 | MOANSO|" << endl;
     cout << "\t---------------------" << endl;
 
     do {
         system("cls");
 
         cout << "===================" << endl;
-        cout << "\tIntegrantes" << endl;
+        cout << "\tINTGRANTES      ||" << endl;
         cout << "\n1. Melissa";
         cout << "\n2. Camila";
         cout << "\n3. Dicarlo";
