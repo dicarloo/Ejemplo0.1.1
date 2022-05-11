@@ -5,9 +5,7 @@ using namespace std;
 
 int main()
 {
-<<<<<<< HEAD
-    std::cout << "Hello Mundo!\n";
-=======
+
     int select=0;
 
     cout << "\t---------------------" << endl;
@@ -65,5 +63,4 @@ int main()
 
 
     } while (select != 7);
->>>>>>> origin/Joyce
 }
