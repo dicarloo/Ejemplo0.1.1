@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    //Remote-Joyce
     int select=0;
 
     cout << "\t---------------------" << endl;
@@ -51,7 +52,7 @@ int main()
             this_thread::sleep_for(chrono::seconds(5));
             break;
         case 6:
-            cout << "\n\nEl fantasma del grupo x2 XDDDD" << endl;
+            cout << "\n\nEl fantasma del grupo x2" << endl;
             this_thread::sleep_for(chrono::seconds(5));
             break;
         default:
