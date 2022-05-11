@@ -54,7 +54,7 @@ int main()
             this_thread::sleep_for(chrono::seconds(5));
             break;
         case 6:
-            cout << "\n\nEl fantasma del grupo x2" << endl;
+            cout << "\n\nEl fantasma del grupo x2 XDDDDDD" << endl;
             this_thread::sleep_for(chrono::seconds(5));
             break;
         default:
