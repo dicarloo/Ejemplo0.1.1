@@ -1,4 +1,6 @@
 #include <iostream>
+#include <chrono>
+#include <thread>
 using namespace std;
 
 int main()
@@ -19,36 +21,45 @@ int main()
         cout << "\n3. Dicarlo";
         cout << "\n4. Joyce";
         cout << "\n5. Saul";
-        cout << "\n\n6. Salir";
+        cout << "\n6. Axel";
+        cout << "\n\n7. Salir";
         cout << "===================" << endl;
+        cout << "\nSelecciona una opción: ";
+        cin >> select;
 
 
         switch (select) {
         case 1:
-            system("cls");
-            cout << "'CAPTURA! CAPTURA! CAPTURA! CAPTURA! CAPTURA!'" << endl;
+            cout << "\n\n'CAPTURA! CAPTURA! CAPTURA! CAPTURA! CAPTURA!'" << endl;
+            this_thread::sleep_for(chrono::seconds(5));
             break;
 
         case 2:
-            system("cls");
-            cout << "La jefa del grupo." << endl;
+            cout << "\n\nLa jefa del grupo." << endl;
+            this_thread::sleep_for(chrono::seconds(5));
             break;
         case 3:
-            system("cls");
-            cout << "El que pone el 0" << endl;
+            cout << "\n\nEl que pone el 0 a los inactivos" << endl;
+            this_thread::sleep_for(chrono::seconds(5));
             break;
         case 4:
-            system("cls");
-            cout << "El depresivo" << endl;
+            cout << "\n\nEl depresivo del grupo" << endl;
+            this_thread::sleep_for(chrono::seconds(5));
             break;
         case 5:
-            system("cls");
-            cout << "El fantasma" << endl;
+            cout << "\n\nEl fantasma del grupo" << endl;
+            this_thread::sleep_for(chrono::seconds(5));
             break;
         case 6:
-            exit;
+            cout << "\n\nEl fantasma del grupo x2" << endl;
+            this_thread::sleep_for(chrono::seconds(5));
+            break;
+        default:
+            cout << "\n\nElige una opcion valida." << endl;
+            this_thread::sleep_for(chrono::seconds(5));
+            break;
         }
 
 
-    } while (select == 6);
+    } while (select != 7);
 }
